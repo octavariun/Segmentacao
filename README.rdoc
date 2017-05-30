@@ -4,8 +4,8 @@ This application is a ruby on rails app
 
 if you want run locally you need some configurations:
 
-* Ruby 2.4.
-* Rails 4
+* Ruby 2.1.10
+* Rails 4.2.1
 * Postgresql 9.*
 
 after install this components you must go on with the configuration:
