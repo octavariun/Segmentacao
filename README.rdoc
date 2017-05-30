@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is a ruby on rails app 
 
-Things you may want to cover:
+if you want run locally you need some configurations:
 
-* Ruby version
+* Ruby 2.4.
+* Rails 4
+* Postgresql 9.*
 
-* System dependencies
+after install this components you must go on with the configuration:
 
-* Configuration
+clone git repository from git@github.com:octavariun/segmentacao.git
+in directory of application run: 
+   - bundle install 
+   - rake db:create:all
+   - rake db:migrate
+ 
+after that you need run the web container with the segmentacao app
+run: rails s
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
