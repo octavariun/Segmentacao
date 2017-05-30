@@ -10,16 +10,16 @@ development: &development
   encoding: utf8
   database: seg_development
   host: localhost
-  username: facilitador
-  password: facilitador
+  username: postgres
+  password: postgres
 
 production:
   adapter: postgresql
   encoding: utf8
   database: seg
   host: localhost
-  username: facilitador
-  password: facilitador
+  username: postgres
+  password: postgres
 
 test:
   <<: *development
